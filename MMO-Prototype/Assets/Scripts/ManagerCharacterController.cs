@@ -97,7 +97,7 @@ public class ManagerCharacterController : MonoBehaviour
 
 
         //char move + gravity
-            _characterController.Move(v_movement * moveSpeed * Time.deltaTime);
+            _characterController.Move(v_movement * moveSpeed * Time.deltaTime * 5);//scale5
             _characterController.Move(v_velocity);
 
         //if (Input.GetMouseButton(0))//animasyon eklenecek.
